@@ -20,7 +20,7 @@ export default class MyForm extends React.Component {
         return (
             <form onSubmit={this.onSubmitHandler}>
                 <h1>Hello {this.state.value}</h1>
-                <p>Enter your name:</p>
+                <p1>Enter your name:</p1>
                 <input type='text' onChange={this.onChangeHandler}/>
                 <input type='submit'/>
             </form>
